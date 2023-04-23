@@ -1,2 +1,2 @@
-# A repository containing various code examples for Solidity smart contracts. 
+# A repository containing various code examples for Solidity. 
 These examples cover a range of topics, including token contracts, price oracles, access control, and more. Each example is fully commented and includes a brief explanation of the functionality provided. Whether you are new to Solidity or an experienced developer, this repository provides a valuable resource for learning and reference.
