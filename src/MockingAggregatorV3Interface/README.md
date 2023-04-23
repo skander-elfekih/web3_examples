@@ -176,17 +176,22 @@ npm install @truffle/hdwallet-provider.
 These commands will ensure that your environment is set up correctly and that the tests are run against a local blockchain.
 
 Once you have the prerequisites installed, you can run the tests by starting a local blockchain with Ganache CLI using the following command:
-
-`ganache-cli -p 8545 --mnemonic "screen modify believe maze clerk kidney patient have attack rent head hurdle"`
-
+``` 
+ganache-cli -p 8545 --mnemonic "screen modify believe maze clerk kidney patient have attack rent head hurdle"
+``` 
 After that, you can compile your contracts using the following command:
-`truffle compile`
-
+``` 
+truffle compile
+``` 
 And then deploy the contracts to the local blockchain:
-`truffle migrate --network development`
+``` 
+truffle migrate --network development
+``` 
 
 Finally, you can run the tests using the following command:
-`truffle test`
+``` 
+truffle test
+``` 
 
 ## Conclusion : Let's Mock It Up!
 
