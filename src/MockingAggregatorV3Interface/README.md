@@ -71,7 +71,7 @@ Now that we have created the AggregatorV3Interface mock, we can use it to test o
 
 We will use a simple Solidity contract as an example, which we will call BitcoinPriceOracle.
 Here's how we define the BitcoinPriceOracle function:
-```
+```Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -114,7 +114,7 @@ To test the BitcoinPriceOracle contract, we will use the Truffle framework. Truf
 
 Here's an example test case for the BitcoinPriceOracle contract:
 
-```
+```Solidity
 contract BitcoinPriceOracleTest {
     BitcoinPriceOracle internal priceOracle;   
     constructor(BitcoinPriceOracle _priceOracle) {
@@ -131,7 +131,7 @@ We will use the "deployContracts" function in our deployment script to deploy th
 
 Here is our deployment script:
 
-```
+```javascript
 const BitcoinPriceOracle = artifacts.require("BitcoinPriceOracle");  
 const MockV3Aggregator = artifacts.require("MockAggregatorV3Interface");  
 const HDWalletProvider = require('@truffle/hdwallet-provider');  
