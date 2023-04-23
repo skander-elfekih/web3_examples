@@ -1,0 +1,10 @@
+
+npm install -g truffle
+npm install -g ganache-cli
+npm install @truffle/hdwallet-provider
+
+
+ganache-cli -p 8545 --mnemonic "screen modify believe maze clerk kidney patient have attack rent head hurdle"
+truffle compile
+truffle migrate --network development
+truffle test
